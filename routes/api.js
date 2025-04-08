@@ -1114,7 +1114,7 @@ router.get('/islam/tahlil', async (req, res, next) => {
         status: 403,
         message: 'your limit has been exhausted, reset every 12 PM'
     });
-    fetch(encodeURI(`https://raw.githubusercontent.com/zeeoneofficial/My-SQL-Results/master/data/dataTahlil.json`))
+    fetch(encodeURI(`https://raw.githubusercontent.com/Xydlan/My-SQL-Results/master/data/dataTahlil.json`))
         .then(response => response.json())
         .then(data => {
             var result = data;
@@ -1143,7 +1143,7 @@ router.get('/islam/wirid', async (req, res, next) => {
         status: 403,
         message: 'your limit has been exhausted, reset every 12 PM'
     });
-    fetch(encodeURI(`https://raw.githubusercontent.com/zeeoneofficial/My-SQL-Results/master/data/dataWirid.json`))
+    fetch(encodeURI(`https://raw.githubusercontent.com/Xydlan/My-SQL-Results/master/data/dataWirid.json`))
         .then(response => response.json())
         .then(data => {
             var result = data;
@@ -1172,7 +1172,7 @@ router.get('/islam/ayatkursi', async (req, res, next) => {
         status: 403,
         message: 'your limit has been exhausted, reset every 12 PM'
     });
-    fetch(encodeURI(`https://raw.githubusercontent.com/zeeoneofficial/My-SQL-Results/master/data/dataAyatKursi.json`))
+    fetch(encodeURI(`https://raw.githubusercontent.com/Xydlan/My-SQL-Results/master/data/dataAyatKursi.json`))
         .then(response => response.json())
         .then(data => {
             var result = data;
@@ -1201,7 +1201,7 @@ router.get('/islam/doaharian', async (req, res, next) => {
         status: 403,
         message: 'your limit has been exhausted, reset every 12 PM'
     });
-    fetch(encodeURI(`https://raw.githubusercontent.com/zeeoneofficial/My-SQL-Results/master/data/dataDoaHarian.json`))
+    fetch(encodeURI(`https://raw.githubusercontent.com/Xydlan/My-SQL-Results/master/data/dataDoaHarian.json`))
         .then(response => response.json())
         .then(data => {
             var result = data;
@@ -1230,7 +1230,7 @@ router.get('/islam/bacaanshalat', async (req, res, next) => {
         status: 403,
         message: 'your limit has been exhausted, reset every 12 PM'
     });
-    fetch(encodeURI(`https://raw.githubusercontent.com/zeeoneofficial/My-SQL-Results/master/data/dataBacaanShalat.json`))
+    fetch(encodeURI(`https://raw.githubusercontent.com/Xydlan/My-SQL-Results/master/data/dataBacaanShalat.json`))
         .then(response => response.json())
         .then(data => {
             var result = data;
@@ -1259,7 +1259,7 @@ router.get('/islam/niatshalat', async (req, res, next) => {
         status: 403,
         message: 'your limit has been exhausted, reset every 12 PM'
     });
-    fetch(encodeURI(`https://raw.githubusercontent.com/zeeoneofficial/My-SQL-Results/master/data/dataNiatShalat.json`))
+    fetch(encodeURI(`https://raw.githubusercontent.com/Xydlan/My-SQL-Results/master/data/dataNiatShalat.json`))
         .then(response => response.json())
         .then(data => {
             var result = data;
@@ -1288,7 +1288,7 @@ router.get('/islam/kisahnabi', async (req, res, next) => {
         status: 403,
         message: 'your limit has been exhausted, reset every 12 PM'
     });
-    fetch(encodeURI(`https://raw.githubusercontent.com/zeeoneofficial/My-SQL-Results/master/data/dataKisahNabi.json`))
+    fetch(encodeURI(`https://raw.githubusercontent.com/Xydlan/My-SQL-Results/master/data/dataKisahNabi.json`))
         .then(response => response.json())
         .then(data => {
             var result = data;
@@ -1317,7 +1317,7 @@ router.get('/islam/asmaulhusna', async (req, res, next) => {
         status: 403,
         message: 'your limit has been exhausted, reset every 12 PM'
     });
-    fetch(encodeURI(`https://raw.githubusercontent.com/zeeoneofficial/My-SQL-Results/master/data/dataAsmaulHusna.json`))
+    fetch(encodeURI(`https://raw.githubusercontent.com/Xydlan/My-SQL-Results/master/data/dataAsmaulHusna.json`))
         .then(response => response.json())
         .then(data => {
             var result = data;
@@ -1346,7 +1346,7 @@ router.get('/islam/niatsubuh', async (req, res, next) => {
         status: 403,
         message: 'your limit has been exhausted, reset every 12 PM'
     });
-    fetch(encodeURI(`https://raw.githubusercontent.com/zeeoneofficial/My-SQL-Results/master/data/NiatShubuh.json`))
+    fetch(encodeURI(`https://raw.githubusercontent.com/Xydlan/My-SQL-Results/master/data/NiatShubuh.json`))
         .then(response => response.json())
         .then(data => {
             var result = data;
@@ -1375,7 +1375,7 @@ router.get('/islam/niatzuhur', async (req, res, next) => {
         status: 403,
         message: 'your limit has been exhausted, reset every 12 PM'
     });
-    fetch(encodeURI(`https://raw.githubusercontent.com/zeeoneofficial/My-SQL-Results/master/data/NiatDzuhur.json`))
+    fetch(encodeURI(`https://raw.githubusercontent.com/Xydlan/My-SQL-Results/master/data/NiatDzuhur.json`))
         .then(response => response.json())
         .then(data => {
             var result = data;
@@ -1404,7 +1404,7 @@ router.get('/islam/niatmagrib', async (req, res, next) => {
         status: 403,
         message: 'your limit has been exhausted, reset every 12 PM'
     });
-    fetch(encodeURI(`https://raw.githubusercontent.com/zeeoneofficial/My-SQL-Results/master/data/NiatMaghrib.json`))
+    fetch(encodeURI(`https://raw.githubusercontent.com/Xydlan/My-SQL-Results/master/data/NiatMaghrib.json`))
         .then(response => response.json())
         .then(data => {
             var result = data;
@@ -1433,7 +1433,7 @@ router.get('/islam/niatisya', async (req, res, next) => {
         status: 403,
         message: 'your limit has been exhausted, reset every 12 PM'
     });
-    fetch(encodeURI(`https://raw.githubusercontent.com/zeeoneofficial/My-SQL-Results/main/data/NiatIsya.json`))
+    fetch(encodeURI(`https://raw.githubusercontent.com/Xydlan/My-SQL-Results/main/data/NiatIsya.json`))
         .then(response => response.json())
         .then(data => {
             var result = data;
@@ -1462,7 +1462,7 @@ router.get('/islam/niatashar', async (req, res, next) => {
         status: 403,
         message: 'your limit has been exhausted, reset every 12 PM'
     });
-    fetch(encodeURI(`https://raw.githubusercontent.com/zeeoneofficial/My-SQL-Results/master/data/NiatAshar.json`))
+    fetch(encodeURI(`https://raw.githubusercontent.com/Xydlan/My-SQL-Results/master/data/NiatAshar.json`))
         .then(response => response.json())
         .then(data => {
             var result = data;
